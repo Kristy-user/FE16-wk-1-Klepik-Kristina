@@ -1,0 +1,98 @@
+.pricing {
+  background-color: #e5e5e5;
+  margin: auto;
+  padding: 15px;
+}
+
+.pricing_header {
+  margin-top: 80px;
+}
+.pricing_subheader {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-top: 34px;
+}
+.pricing_flexBox {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 65px;
+}
+
+.pricing_flexBox_item {
+  width: 340px;
+  height: 467px;
+}
+.pricing_flexBox_item_title_text {
+  height: 50px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing_flexBox_item_value_text {
+  height: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing_flexBox_item_info_text {
+  height: 50px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing_flexBox_item_list {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+
+.pricing_flexBox_item_value,
+.pricing_flexBox_item_title,
+.pricing_flexBox_item_info {
+  text-align: center;
+  background-color: #333333;
+  margin-bottom: 2px;
+}
+
+.item2 > div > .pricing_flexBox_item_info_text {
+  background-color: rgba(217, 137, 67, 1);
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 2px;
+  text-align: center;
+  height: 40px;
+}
