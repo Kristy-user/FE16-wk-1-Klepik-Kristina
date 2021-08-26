@@ -1,30 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1170px;
-  margin: auto;
-  text-align: center;
-  padding: 15px;
-  height: 595px;
-}
-
-h2,
-h3 {
-  font-family: 'Open Sans', sans-serif;
-}
 .awesome_header {
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
-  color: #212121;
   margin-top: 100px;
 }
 
-.awesome_header_line {
+.container_line {
   margin: auto;
   border-bottom: 1px solid #d98943;
   padding-bottom: 25px;
@@ -40,16 +18,34 @@ h3 {
   margin-bottom: 0px;
 }
 
-.awesome_card {
-  display: inline-block;
-  width: 30%;
-}
-
-.awesome_card_img {
+.awesome_card_icon {
+  background-image: url('/img/bulb.svg');
+  width: 70px;
+  height: 70px;
+  margin: auto;
   border: 1px solid #d98943;
   border-radius: 50%;
-  margin-top: 87px;
-  padding: 22px;
+  background-size: 23px 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 67px;
+}
+.icon1 {
+  background-image: url('/img/bulb.svg');
+  background-size: 23px 30px;
+}
+.icon2 {
+  background-image: url('/img/keyboard.svg');
+  background-size: 37px 26px;
+}
+.icon3 {
+  background-image: url('/img/light.svg');
+  background-size: 21px 33px;
+}
+.awesome_flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 109px;
 }
 
 .awesome_card_title {
