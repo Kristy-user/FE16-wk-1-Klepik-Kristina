@@ -5,7 +5,7 @@
 }
 
 .pricing_header {
-  margin-top: 80px;
+  margin-top: 65px;
 }
 .pricing_subheader {
   font-weight: normal;
@@ -15,12 +15,13 @@
   margin-top: 34px;
 }
 .pricing_flexBox {
-  margin-top: 48px;
+  margin-top: 62px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
+  position: relative;
 }
 
 .pricing_flexBox_item {
@@ -52,7 +53,8 @@
   align-items: center;
 }
 
-.pricing_flexBox_item_info_text {
+.pricing_flexBox_item_info_text,
+.pricing_flexBox_item_info_link {
   height: 50px;
   font-family: Open Sans;
   font-style: normal;
@@ -82,7 +84,14 @@
   margin-bottom: 2px;
 }
 
-.item2 > div > .pricing_flexBox_item_info_text {
+.item2 {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: -14px;
+}
+.pricing_flexBox_item_info_link:hover {
   background-color: rgba(217, 137, 67, 1);
 }
 
@@ -91,8 +100,8 @@ li {
   justify-content: center;
   align-items: center;
   width: 340px;
+  margin-top: 4px;
   background-color: rgba(255, 255, 255, 1);
-  margin: 2px;
   text-align: center;
   height: 40px;
 }

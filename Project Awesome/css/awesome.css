@@ -2,10 +2,13 @@
   margin-top: 100px;
 }
 
-.container_line {
+h2:after {
+  content: '';
+  display: block;
   margin: auto;
-  border-bottom: 1px solid #d98943;
-  padding-bottom: 25px;
+  margin-top: 34px;
+  background-color: #d98943;
+  height: 2px;
   width: 64px;
 }
 
@@ -18,7 +21,7 @@
   margin-bottom: 0px;
 }
 
-.awesome_card_icon {
+.awesome_flex_card_icon {
   background-image: url('/img/bulb.svg');
   width: 70px;
   height: 70px;
@@ -42,13 +45,13 @@
   background-image: url('/img/light.svg');
   background-size: 21px 33px;
 }
-.awesome_flex {
+.awesome_flex_card {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 109px;
 }
 
-.awesome_card_title {
+.awesome_flex_card_title {
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
@@ -56,7 +59,7 @@
   padding-top: 30px;
 }
 
-.awesome_card_text {
+.awesome_flex_card_text {
   font-family: 'Open Sans', sans-serif;
   padding-top: 16px;
   font-weight: normal;
