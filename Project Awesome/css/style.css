@@ -1,5 +1,7 @@
 @import url('awesome.css');
 @import url('pricing.css');
+@import url('customers.css');
+@import url('axure.css');
 
 * {
   padding: 0;
@@ -25,4 +27,5 @@ h2 {
   font-size: 36px;
   line-height: 42px;
   color: #212121;
+  text-transform: uppercase;
 }

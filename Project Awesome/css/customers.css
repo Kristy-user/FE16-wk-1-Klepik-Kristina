@@ -1,0 +1,80 @@
+.customers_header {
+  margin-top: 65px;
+}
+
+.customers_subheader {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-top: 34px;
+}
+
+.customers_flex_card {
+  margin-top: 76px;
+  margin-bottom: 108px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.customers_flex_card_phrase,
+.customers_flex_card_person_function {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.customers_flex_card_person_function {
+  color: rgba(134, 135, 139, 1);
+}
+
+.customers_flex_card_phrase ::after {
+  content: '';
+  position: absolute;
+  left: 39px;
+  bottom: -24.08px;
+  border: 12.04px solid transparent;
+  border-top: 12.04px solid rgba(226, 226, 226, 1);
+}
+
+.customers_flex_card_phrase_text {
+  background: #e2e2e2;
+  border-radius: 7px;
+  padding: 9px 22px 6px 23px;
+  position: relative;
+  text-align: center;
+  color: #86878b;
+}
+.customers_flex_card_item {
+  display: inline-block;
+  width: 27%;
+}
+
+.customers_flex_card_person_name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  align-items: flex-end;
+}
+
+.customers_flex_card_person_photo {
+  align-items: flex-start;
+}
+.customers_flex_card_person {
+  display: flex;
+  padding-top: 22px;
+  justify-content: space-around;
+}

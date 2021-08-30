@@ -1,0 +1,59 @@
+.axure .container {
+  background-image: url(/img/background\ 1.svg);
+  height: 326px;
+  max-width: 1400px;
+  position: relative;
+  background-position: center;
+  margin: auto;
+  background-size: cover;
+}
+
+.axure .container::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.axure_header_title:after {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.axure_header_title,
+.axure_link_1,
+.axure_subheader {
+  position: relative;
+  z-index: 2;
+}
+.axure_header_title {
+  padding-top: 43px;
+  color: rgba(255, 255, 255, 1);
+}
+.axure_subheader {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 68px;
+  margin-top: 34px;
+}
+
+.axure_link_1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 11px 26px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-bottom: 38px;
+}
