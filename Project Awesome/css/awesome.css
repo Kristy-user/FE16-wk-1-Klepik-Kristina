@@ -22,7 +22,7 @@ h2:after {
 }
 
 .awesome_flex_card_icon {
-  background-image: url('/img/bulb.svg');
+  background-image: url('../img/bulb.svg');
   width: 70px;
   height: 70px;
   margin: auto;
@@ -33,16 +33,16 @@ h2:after {
   background-repeat: no-repeat;
   margin-top: 67px;
 }
-.icon1 {
-  background-image: url('/img/bulb.svg');
+.awesome_flex_card_icon .icon1 {
+  background-image: url('../img/bulb.svg');
   background-size: 23px 30px;
 }
 .icon2 {
-  background-image: url('/img/keyboard.svg');
+  background-image: url('../img/keyboard.svg');
   background-size: 37px 26px;
 }
 .icon3 {
-  background-image: url('/img/light.svg');
+  background-image: url('../img/light.svg');
   background-size: 21px 33px;
 }
 .awesome_flex_card {
