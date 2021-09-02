@@ -1,0 +1,36 @@
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+}
+.social_icons_footer_link .social_icons_link {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 1);
+  font-size: 23px;
+  display: inline;
+}
+
+.social_icons_footer {
+  text-align: center;
+  padding-bottom: 18px;
+}
+.social_icons_footer_link {
+  display: inline;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 0px 10px;
+}
+.footer_navigation {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer_copyright {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}

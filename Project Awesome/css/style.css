@@ -2,6 +2,9 @@
 @import url('pricing.css');
 @import url('customers.css');
 @import url('axure.css');
+@import url('header.css');
+@import url('social.css');
+@import url('footer.css');
 
 * {
   padding: 0;
@@ -10,6 +13,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 .container {
   max-width: 1170px;
   margin: auto;
