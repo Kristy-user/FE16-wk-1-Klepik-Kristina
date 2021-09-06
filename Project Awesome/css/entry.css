@@ -1,0 +1,141 @@
+.entry {
+  background-image: url('../img/background2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  margin: auto;
+}
+
+.entry::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.entry .container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.entry_logo_text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+
+.entry_logo_text_2 {
+  color: rgb(236, 121, 121);
+}
+.entry_title_text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.entry_title {
+  text-align: left;
+  width: 56%;
+  padding: 94px 0px 86px 100px;
+}
+
+.entry_title_text::after {
+  margin-left: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  height: 1px;
+}
+
+.entry_subtitle {
+  padding: 39px 0px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.entry_form {
+  border: 0px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.entry_form_text {
+  color: rgb(236, 121, 121);
+  text-transform: uppercase;
+}
+
+.entry_button {
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  padding: 11px 27px 11px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid #ffffff;
+}
+
+.entry_form_title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
+  text-transform: capitalize;
+  padding: 15px 59px;
+  margin-bottom: 24.7px;
+}
+
+form input {
+  outline: none;
+  border: 0;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 19px;
+  border-bottom: 1px solid #bdbdbd;
+  text-align: left;
+  width: 70%;
+  padding-top: 19.3px;
+  padding-bottom: 19.3px;
+}
+.entry_form_button {
+  border: none;
+  background-color: rgb(236, 121, 121);
+  color: rgba(255, 255, 255, 1);
+  padding: 11px 27px 11px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 100%;
+  padding: 19px 0;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid rgb(236, 121, 121);
+  margin-top: 61px;
+}
