@@ -1,11 +1,15 @@
-.axure .container {
+.axure {
   background-image: url('../img/background 1.svg');
-  height: 326px;
-  max-width: 1400px;
-  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   margin: auto;
-  background-size: cover;
+}
+
+.axure .container {
+  position: relative;
+
+  z-index: 2;
 }
 
 .axure .container::after {
@@ -55,5 +59,7 @@
   color: #ffffff;
   padding: 11px 26px;
   border: 1px solid rgba(255, 255, 255, 1);
+}
+.axure_link {
   margin-bottom: 38px;
 }
