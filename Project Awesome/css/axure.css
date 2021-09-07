@@ -29,7 +29,7 @@
 }
 
 .axure_header_title,
-.axure_link_1,
+.link_1,
 .axure_subheader {
   position: relative;
   z-index: 2;
@@ -49,7 +49,7 @@
   margin-top: 34px;
 }
 
-.axure_link_1 {
+.link_1 {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;

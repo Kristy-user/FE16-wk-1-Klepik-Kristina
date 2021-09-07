@@ -59,7 +59,7 @@
 }
 
 .entry_subtitle {
-  padding: 39px 0px;
+  padding: 39px 0px 50px 0;
   font-family: Raleway;
   font-style: normal;
   font-weight: 300;
@@ -79,21 +79,6 @@
 .entry_form_text {
   color: rgb(236, 121, 121);
   text-transform: uppercase;
-}
-
-.entry_button {
-  border: none;
-  background-color: transparent;
-  color: rgba(255, 255, 255, 1);
-  padding: 11px 27px 11px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  border: 1px solid #ffffff;
 }
 
 .entry_form_title {
