@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-.entry .container {
+.entry_container {
   position: relative;
   z-index: 2;
   display: flex;
@@ -30,7 +30,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
-  line-height: 42px;
   color: #ffffff;
   padding-bottom: 32px;
 }
@@ -39,17 +38,13 @@
   color: rgb(236, 121, 121);
 }
 .entry_title_text {
-  font-family: Raleway;
   font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
   color: #ffffff;
 }
 .entry_title {
   text-align: left;
-  width: 56%;
-  padding: 94px 0px 86px 100px;
+  width: 46%;
+  padding: 94px 0px 86px 0px;
 }
 
 .entry_title_text::after {
@@ -72,8 +67,9 @@
   border: 0px solid #ffffff;
   background-color: #ffffff;
   border-radius: 8px;
-  margin: auto;
-  width: 35%;
+  margin: auto 0;
+  width: 31%;
+  padding: auto;
 }
 
 .entry_form_text {
@@ -90,7 +86,8 @@
   text-align: center;
   color: #333333;
   text-transform: capitalize;
-  padding: 15px 59px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 24.7px;
 }
 
@@ -124,4 +121,50 @@ form input {
   border-radius: 0 0 8px 8px;
   border: 1px solid rgb(236, 121, 121);
   margin-top: 61px;
+}
+
+@media (max-width: 768px) {
+  .entry_logo_text {
+    font-size: 1.8rem;
+  }
+  .entry_title {
+    padding-top: 28px;
+    padding-bottom: 26px;
+  }
+  .entry_subtitle {
+    font-size: 0.5rem;
+    padding: 9px 0px 11px 0;
+  }
+  .entry_form h3 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .entry_form_title {
+    padding: 5px 19px;
+    margin-bottom: 5px;
+  }
+
+  .link_1 {
+    font-size: 0.5rem;
+    padding: 5px 13px;
+  }
+  form input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .entry_form_button {
+    margin-top: 20px;
+    padding: 9px 0;
+  }
+  .entry_form {
+    width: 40%;
+  }
+
+  .entry_logo_text {
+    padding: 5px 0;
+    font-size: 1.8rem;
+  }
+  .entry_container {
+    margin: 0;
+  }
 }

@@ -105,3 +105,21 @@ li {
   text-align: center;
   height: 40px;
 }
+
+@media (max-width: 768px) {
+  .pricing_header {
+    margin-top: 35px;
+  }
+  .pricing_subheader {
+    margin-top: 15px;
+  }
+  .pricing_flexBox {
+    margin-top: 31px;
+  }
+  .item2 {
+    top: 0;
+  }
+  .pricing_flexBox_item {
+    margin-bottom: 10px;
+  }
+}

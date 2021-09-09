@@ -22,7 +22,6 @@ h2:after {
 }
 
 .awesome_flex_card_icon {
-  background-image: url('../img/bulb.svg');
   width: 70px;
   height: 70px;
   margin: auto;
@@ -33,7 +32,7 @@ h2:after {
   background-repeat: no-repeat;
   margin-top: 67px;
 }
-.awesome_flex_card_icon .icon1 {
+.icon1 {
   background-image: url('../img/bulb.svg');
   background-size: 23px 30px;
 }
@@ -54,7 +53,6 @@ h2:after {
 .awesome_flex_card_title {
   font-weight: bold;
   font-size: 20px;
-  line-height: 27px;
   color: #333333;
   padding-top: 30px;
 }
@@ -67,4 +65,31 @@ h2:after {
   line-height: 19px;
   color: #000000;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .awesome_header {
+    margin-top: 50px;
+  }
+  h2:after {
+    margin-top: 1rem;
+  }
+  .awesome_subheader {
+    margin-top: 15px;
+  }
+  .icon1,
+  .icon2,
+  .icon3 {
+    background-size: 50%;
+  }
+  .awesome_flex_card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .awesome_flex_card_icon {
+    margin-top: 30px;
+  }
+  .awesome_flex_card_title {
+    font-size: 1rem;
+  }
 }

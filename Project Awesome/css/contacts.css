@@ -8,7 +8,6 @@
 }
 
 .contacts .container {
-  background-image: none;
   padding-top: 65px;
 }
 
@@ -23,12 +22,11 @@
   flex-direction: row;
 }
 .contacts_form_PI {
-  padding-left: 100px;
+  width: 40.86%;
 }
 
 .contacts_form_message {
-  padding: 0px 100px 0 200px;
-  width: 70%;
+  width: 40.86%;
 }
 .contacts_form_message textarea {
   outline: none;
@@ -37,7 +35,7 @@
   border-bottom: 1px solid #bdbdbd;
   resize: none;
   width: 100%;
-  padding: 38px 0;
+  padding: 41px 0;
 }
 .contacts .container form input {
   width: 100%;
@@ -65,4 +63,31 @@ input [type='text'] {
   border: 1px solid rgb(236, 121, 121);
   margin-top: 68px;
   margin-bottom: 29px;
+}
+
+@media (max-width: 768px) {
+  .contacts_form {
+    flex-direction: column;
+  }
+  .contacts_form_PI,
+  .contacts_form_message {
+    width: 80%;
+    margin: auto;
+  }
+  .contacts_subheader {
+    margin-bottom: 30px;
+  }
+  .contacts .container form input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contacts_form_message textarea {
+    padding: 10px 0;
+  }
+  .contacts_form_message {
+    margin-top: 20px;
+  }
+  .contacts_form_button_send {
+    margin-top: 30px;
+  }
 }

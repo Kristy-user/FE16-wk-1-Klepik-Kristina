@@ -15,7 +15,6 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
 .container {
   max-width: 1170px;
   margin: auto;
@@ -34,4 +33,14 @@ h2 {
   line-height: 42px;
   color: #212121;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.65rem;
+  }
+  .container {
+    padding: 0.7rem;
+  }
 }
