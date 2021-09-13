@@ -36,13 +36,16 @@
 
 .social_icons_items {
   display: flex;
+  justify-content: flex-end;
 }
-.social_icons_link {
-  text-align: right;
-  justify-content: end;
+.social_icons_items li {
+  margin-left: 48px;
 }
 
 .social_icons_link {
+  width: fit-content;
+  text-align: right;
+  justify-content: end;
   height: fit-content;
   background-color: rgba(248, 239, 239, 1);
   font-size: 34px;
@@ -92,28 +95,33 @@
 @media (max-width: 768px) {
   .social_icons_link {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
   }
-
+  .social_title h3 {
+    padding-bottom: 7px;
+    text-align: center;
+  }
   .social_title {
-    width: 70%;
+    width: 100%;
     font-size: 1rem;
+    align-self: center;
+  }
+  .social_icons_items {
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .social_title_text {
-    font-size: 0.5 rem;
+    font-size: 0.9 rem;
+    padding-bottom: 10px;
+    text-align: center;
   }
   .social_container {
     flex-direction: column;
   }
-
-  .social_title {
-    align-self: center;
-  }
   .social_nav {
-    width: 70%;
-    text-align: left;
+    width: 100%;
   }
   .social_icons_items li {
-    justify-content: left;
+    margin-left: 12px;
   }
 }

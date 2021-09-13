@@ -91,4 +91,16 @@
     align-self: center;
     padding-top: 20px;
   }
+  .customers_flex_card_item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+    background-color: #86878b;
+    height: 0.5px;
+    width: 100%;
+  }
+  .customers_flex_card_item:last-child:after {
+    width: 0%;
+  }
 }

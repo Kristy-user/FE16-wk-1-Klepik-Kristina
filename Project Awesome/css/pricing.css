@@ -1,7 +1,5 @@
 .pricing {
   background-color: #e5e5e5;
-  margin: auto;
-  padding: 15px;
 }
 
 .pricing_header {
@@ -19,29 +17,29 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 60px;
+  justify-content: space-between;
+  margin-bottom: 45px;
   position: relative;
 }
 
 .pricing_flexBox_item {
-  width: 340px;
-  height: 467px;
+  text-align: center;
+  width: 29.06%;
 }
 .pricing_flexBox_item_title_text {
-  height: 50px;
   font-family: Open Sans;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  margin-bottom: 1px;
 }
 
 .pricing_flexBox_item_value_text {
-  height: 100px;
+  padding-top: 26px;
+  padding-bottom: 23px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -51,11 +49,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2px;
 }
 
 .pricing_flexBox_item_info_text,
 .pricing_flexBox_item_info_link {
-  height: 50px;
+  padding-top: 17px;
+  padding-bottom: 14px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -64,7 +64,6 @@
   color: rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .pricing_flexBox_item_list {
@@ -81,7 +80,6 @@
 .pricing_flexBox_item_info {
   text-align: center;
   background-color: #333333;
-  margin-bottom: 2px;
 }
 
 .item2 {
@@ -95,27 +93,36 @@
   background-color: rgba(217, 137, 67, 1);
 }
 
-li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 340px;
+.pricing_flexBox_item_list_items li {
   margin-top: 4px;
   background-color: rgba(255, 255, 255, 1);
-  text-align: center;
-  height: 40px;
+  padding: 10px 0;
 }
 
 @media (max-width: 768px) {
   .pricing_header {
     margin-top: 35px;
   }
-  .pricing_subheader {
-    margin-top: 15px;
+  .pricing_flexBox_item_title_text {
+    font-size: 1rem;
+  }
+  .pricing_flexBox_item_value_text {
+    padding-top: 13px;
+    padding-bottom: 11px;
+    font-size: 1.5rem;
+  }
+  .pricing_flexBox_item {
+    width: 70%;
+    justify-content: center;
   }
   .pricing_flexBox {
-    margin-top: 31px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
   }
+
   .item2 {
     top: 0;
   }
