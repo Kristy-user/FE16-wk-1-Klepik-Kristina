@@ -27,7 +27,7 @@
 .header_nav_link {
   width: fit-content;
   height: fit-content;
-  margin-left: 48px;
+  margin-left: 44px;
 }
 
 .header_nav_link a {
@@ -40,6 +40,8 @@
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(0, 0, 0, 1);
   position: relative;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .header_nav_link a:hover:after,
@@ -47,8 +49,6 @@
   display: block;
   content: '';
   position: absolute;
-  right: 0;
-  width: 0;
   animation: mymove 0.7s forwards;
   border-bottom: solid 1px rgba(255, 255, 255, 0.7);
   border-right: solid 1px rgba(255, 255, 255, 0.7);
@@ -62,16 +62,28 @@
   }
   to {
     width: 100%;
-    height: 50%;
+    height: 40%;
     top: 50%;
   }
 }
 
 @media (max-width: 768px) {
   .heder_logo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+  .header_nav_link {
+    margin-left: 10px;
+  }
+  .header_nav_items {
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header_container {
+    flex-direction: column;
+    justify-content: center;
   }
   .header_nav {
-    visibility: hidden;
+    width: 100%;
   }
 }
