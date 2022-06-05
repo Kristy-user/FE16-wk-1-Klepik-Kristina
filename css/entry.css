@@ -122,7 +122,11 @@ form input {
   border: 1px solid rgb(236, 121, 121);
   margin-top: 61px;
 }
-
+.entry_form_button:hover,
+.contacts_form_button_send:hover {
+  background-color: #f3a6a6;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .entry_container {
     flex-direction: column;

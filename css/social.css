@@ -51,45 +51,34 @@
   font-size: 34px;
   color: rgb(204, 204, 204);
 }
-
-.face:hover {
+.social_icons_link:hover {
   transform: scale(1.3, 1.4);
-  color: #4867aa;
   transition: 0.3s;
 }
+
+.face:hover {
+  color: #4867aa;
+}
 .twit:hover {
-  transform: scale(1.3, 1.4);
   color: #28a9e0;
 }
 
 .google:hover {
-  color: #ff00de;
-  transform: rotate(360deg);
-  transition: 0.5s;
+  color: rgb(230, 106, 24);
 }
 .print:hover {
   color: #d50123;
-  transform: rotateZ(90deg);
-  transition-duration: 0.8s;
 }
 .inst:hover {
   color: crimson;
-  transform: rotate(360deg);
-  transition-duration: 0.5s;
 }
 
 .stumble:hover {
-  background-color: #e94c22;
-  color: white;
-  transform: scale(1.3, 1.4);
-  border-radius: 6px;
+  color: #e94c22;
 }
 
 .rss:hover {
-  transform: scale(1.3, 1.4);
-  background-color: #f29d00;
-  color: white;
-  border-radius: 6px;
+  color: #f29d00;
 }
 
 @media (max-width: 768px) {

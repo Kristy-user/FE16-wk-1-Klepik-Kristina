@@ -89,8 +89,10 @@
   right: 0px;
   top: -14px;
 }
-.pricing_flexBox_item_info_link:hover {
+
+.pricing_flexBox_item_info_text:hover {
   background-color: rgba(217, 137, 67, 1);
+  cursor: pointer;
 }
 
 .pricing_flexBox_item_list_items li {

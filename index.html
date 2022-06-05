@@ -19,17 +19,24 @@
   <body>
         <header class="header">
       <div class="header_container container">
-                      <a href="#"class="header_logo" ><img class="header_logo_img" src="img/logo.svg" alt="logo AXIT"></a>
-                           <nav class="header_nav">
-        <ul class="header_nav_items">
-          <li class="header_nav_link"><a href="#Feautures" class="header_nav_link_feautures nav_links">Feautures</a></li>
-          <li class="header_nav_link"><a href="#About" class="header_nav_link_about nav_links">About</a></li>
-          <li class="header_nav_link"><a href="#Pricing" class="header_nav_link_pricing nav_links">Pricing</a></li>
-          <li class="header_nav_link"><a href="#Reviews" class="header_nav_link_reviews nav_links">Reviews</a></li>
-          <li class="header_nav_link"><a href="#Contact" class="header_nav_link_contact nav_links">Contact</a></li>
+        <div class="header_logo"> 
+          <a href="#"class="header_logo" >
+          <img class="header_logo_img" src="img/logo.svg" alt="logo AXIT">
+        </a>
+      </div>         
+        <div class="header_burger">
+          <span></span>
+        </div>
+       <nav class="header_menu">
+         <ul class="header_list">
+          <li class="header_link"><a href="#Feautures" class="header_link_nav">Feautures</a></li>
+          <li class="header_link"><a href="#About" class="header_link_nav">About</a></li>
+          <li class="header_link"><a href="#Pricing" class="header_link_nav">Pricing</a></li>
+          <li class="header_link"><a href="#Reviews" class="header_link_nav">Reviews</a></li>
+          <li class="header_link"><a href="#Contact" class="header_link_nav">Contact</a></li>
         </ul>
       </nav>
-      </div>
+    </div>
     </header>
     <section class="entry" id="Feautures">
       <div class="entry_container container">
@@ -81,14 +88,14 @@
         <div class="tabs_transition">
           <nav class="tabs_nav">
             <ul class="tabs_list">
-              <li class="tabs_list_item">
-                <a href="#content_1">Tab 1</a>
+              <li id ='tab_1' class="tabs_list_item">
+                <p class="tab_link_1">Tab 1</p>
               </li>
-              <li class="tabs_list_item">
-                <a href="#content_2">Tab 1</a>
+              <li id ='tab_2' class="tabs_list_item">
+                <p class="tab_link_2">Tab 2</p>
               </li>
-              <li class="tabs_list_item">
-                <a href="#content_3">Tab 1</a>
+              <li id ='tab_3' class="tabs_list_item">
+                <p class="tab_link_3">Tab 3</p>
               </li>
             </ul>
                </nav>
@@ -98,21 +105,14 @@
                   <h3 class="tab_content_title_text">Tabs with soft transitioning effect.</h3>
                 </div>
                 <div class="tab_content_text">
-                <p class="tab_content_1" id="content_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                <p class="tab_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                   bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
                   justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                   penatibus et magnis dis parturient montes. </p>
-                  
-                 <p class="tab_content_1" id="content_1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                 <p class="tab_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                   bibendum laoreet.</p>
                 </div>              
-              <div class="tab_content_item item2">
-                <p class="tab_content_2" id="content_2">Content #2</p>
-               </div>
-              <div class="tab_content_item item3">
-                <p class="tab_content_3" id="content_3">Content #3</p> 
-                 </div>
-              </div>
+            </div>
             
             <div class="tab_content_link">
               <a href="#" class="tab_link_download link_2">Download</a>
@@ -204,7 +204,7 @@
             <p class="pricing_flexBox_item_value_text">$20</p>
           </div>
           <div class="pricing_flexBox_item_info">
-            <a href="#" class="pricing_flexBox_item_info_link">Free for life</a>
+            <p class="pricing_flexBox_item_info_text">Free for life</p>
           </div>
           <div class="pricing_flexBox_item_list">
             <ul class="pricing_flexBox_item_list_items">
@@ -359,5 +359,6 @@
       </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src='/js/script.js'></script>
   </body>
 </html>
